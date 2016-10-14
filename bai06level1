@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <conio.h>
+void main()
+{
+    float r, h, p, stp, sxq, v;
+    printf ("nhap gia tri ban kinh r\n");
+    scanf ("%f",&r);
+    printf("nhap gia tri duong cao h\n");
+    scanf("%f",&h);
+    p=2*3.14*r;
+    sxq=2*3.14*r*h;
+    stp=2*3.14*r*(h+r);
+    v=3.14*r*r*h;
+    printf ("chu vi day hinh tru tron la: p=%0.1f\n",p);
+    printf ("dien tich xung quanh hinh tru tron la: sxq=%0.1f\n",sxq);
+    printf ("dien tich toan phan hinh tru tron la: stp=%0.1f\n",stp);
+    printf ("the tich hinh tru tron la: v=%0.1f",v);
+    getch();
+
+}
+
+
+

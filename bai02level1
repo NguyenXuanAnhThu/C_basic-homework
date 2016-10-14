@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <conio.h>
+void main()
+{
+    float d, p, s;
+    printf ("nhap gia tri duong kinh d\n");
+    scanf ("%f",&d);
+    p=d*3.14;
+    s=(d*d*3.14)/4;
+    printf ("chu vi hinh tron la: p=%0.1f\n",p);
+    printf ("dien tich hinh tron la: s=%0.1f\n",s);
+    getch();
+
+}

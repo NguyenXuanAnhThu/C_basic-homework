@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <conio.h>
+void main()
+{
+    int ngay, thang, nam;
+    printf ("nhap ngay");
+    scanf ("%d",&ngay);
+    thang=ngay/30;
+    nam=ngay/365;
+    printf ("thang %d nam %d\n", thang, nam);
+    getch ();
+
+}
+
+
+
+
+
+

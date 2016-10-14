@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <conio.h>
+void main()
+{
+    float ab, ac, bc, ah, c, s;
+    printf ("nhap gia tri cua ab\n");
+    scanf ("%f",&ab);
+    printf ("nhap gia tri cua bc\n");
+    scanf ("%f",&bc);
+    printf ("nhap gia tri cua ac\n");
+    scanf ("%f",&ac);
+    printf ("nhap gia tri cua ah\n");
+    scanf ("%f",&ah);
+    c=ab+bc+ac;
+    s=(ah*bc)/2;
+    printf ("chu vi tam giac abc la: c=%0.1f\n",c);
+    printf ("dien tich tam giac abc la: s=%0.1f\n",s);
+    getch();
+
+}

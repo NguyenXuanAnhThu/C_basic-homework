@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <conio.h>
+void main()
+{
+    int a, b;
+    float c;
+    printf ("nhap gia tri so nguyen a\n");
+    scanf ("%d",&a);
+    printf ("nhap gia tri so nguyen b\n");
+    scanf ("%d",&b);
+    c=(float)a/b;
+    printf ("gia tri cua so thuc c=%0.1f\n",c);
+    getch ();
+
+}
+
+
+
+
+
+

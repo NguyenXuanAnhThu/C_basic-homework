@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <conio.h>
+void main()
+{
+    float a, b, p, s;
+    printf ("nhap gia tri chieu dai a\n");
+    scanf ("%f",&a);
+    printf("nhap gia tri chieu rong b\n");
+    scanf("%f",&b);
+    p=(a+b)*2;
+    s=a*b;
+    printf ("chu vi hinh chu nhat la: p=%0.1f\n",p);
+    printf ("dien tich hinh chu nhat la: s=%0.1f\n",s);
+    getch();
+
+}
+
+

@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <conio.h>
+#include <math.h>
+void main()
+{
+    float a,b,c,d,AB;
+    printf("nhap gia tri a,b,c,d\n");
+    scanf("%f%f%f%f",&a,&b,&c,&d);
+    AB=sqrt( pow(c-a,2) + pow(d-b,2) );
+    if (AB!=0)
+    {
+        printf("do dai doan thang AB = %f",AB);
+    }
+    else printf("do dai doan thang AB=0");
+}

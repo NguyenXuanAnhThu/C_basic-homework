@@ -1,0 +1,35 @@
+#include <stdio.h>
+#include <conio.h>
+#include <math.h>
+void main()
+{
+    float a,b,c, denta,x1,x2,x;
+    printf ("chuong trinh giai phuong trinh bac hai\n");
+    printf ("phuong trinh bac hai co dang la axx+bx+c=0\n");
+    printf ("nhap gia tri cua a\n");
+    scanf ("%f",&a);
+    printf ("nhap gia tri cua b\n");
+    scanf ("%f",&b);
+    printf ("nhap gia tri cua c\n");
+    scanf ("%f",&c);
+    denta=b*b-4*a*c;
+    if (denta>0)
+    {
+        printf ("phuong trinh co hai nghiem phan biet\n");
+        x1=(-b+sqrt (denta))/2*a;
+        x2=(-b-sqrt (denta))/2*a;
+        printf ("gia tri cua x1 =%0.1f",x1);
+        printf("gia tri cua x2 =%0.1f",x2);
+    }
+    else if (denta<0)
+    {
+        printf ("phuong trinh vo nghiem\n");
+    }
+    else
+    {
+        printf ("phuong trinh co mot nghiem kep\n");
+        x=-b/2*a;
+        printf ("gia tri cua x =%0.1f",x);
+    }
+    getch();
+}

@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <conio.h>
+#include <math.h>
+void main()
+{
+
+    int a;
+    printf("nhap so a\n");
+    scanf("%d",&a);
+    if (a<2)
+        {
+            printf("a khong phai la so nguyen to\n");
+        }
+    else if (a>2)
+    {
+        if (a%2==0)
+          {
+              printf("a =%d khong phai la mot so nguyen to\n",a);
+          }
+        else
+            printf("a = %d la mot so nguyen to\n",a);
+    }
+    getch();
+
+}

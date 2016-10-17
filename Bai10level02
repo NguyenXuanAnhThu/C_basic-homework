@@ -12,7 +12,7 @@ void main()
      ac=sqrt(pow(x2,2)+pow(y2,2));
      if (cosx!=0)
      {
-        cosx=(x1*x2+y1*y2)/(ab*ac);
+        cosx=abs((x1*x2+y1*y2)/(ab*ac));
         printf("goc bac:=%f",cosx);
      }
      else
